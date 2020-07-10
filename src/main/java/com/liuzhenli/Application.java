@@ -7,7 +7,7 @@ import org.springframework.boot.autoconfigure.jdbc.DataSourceAutoConfiguration;
 import org.springframework.context.annotation.ComponentScan;
 
 @SpringBootApplication(exclude = DataSourceAutoConfiguration.class)
-@ComponentScan(basePackages = "com.liuzhenli")
+//@ComponentScan(basePackages = "com.liuzhenli")
 public class Application {
     public static void main(String[] args) {
         SpringApplication.run(Application.class, args);
